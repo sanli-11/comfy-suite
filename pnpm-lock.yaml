@@ -14,9 +14,6 @@ importers:
       postcss:
         specifier: ^8.4.41
         version: 8.4.41
-      prettier-plugin-tailwindcss:
-        specifier: ^0.6.6
-        version: 0.6.6(prettier@3.3.3)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -51,6 +48,12 @@ importers:
       globals:
         specifier: ^15.9.0
         version: 15.9.0
+      prettier:
+        specifier: ^3.3.3
+        version: 3.3.3
+      prettier-plugin-tailwindcss:
+        specifier: ^0.6.6
+        version: 0.6.6(prettier@3.3.3)
       typescript:
         specifier: ^5.5.3
         version: 5.5.4
