@@ -5,7 +5,7 @@ interface Prop {
 
 function Button(props: Prop): JSX.Element {
   return (
-    <button type="button" className={`${props.className} mx-3 border-2 px-4 py-2 uppercase text-white`}>
+    <button type="button" className={`mx-3 border-2 px-4 py-2 font-semibold uppercase text-white ${props.className}`}>
       {props.children}
     </button>
   );
