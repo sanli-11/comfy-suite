@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+	:root {
+		--color-bg: 21, 22, 25;
+		--color-overlay: 18, 18, 18;
+	}
+
 	body {
 		font-size: 12px;
 	}

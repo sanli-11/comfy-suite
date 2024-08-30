@@ -20,14 +20,14 @@ const navigationItemsList: listItems[] = [
 	},
 	{
 		id: 2,
-		name: "Rooms",
-		href: "/rooms",
+		name: "Locations",
+		href: "/locations",
 		haveChevron: true,
 	},
 	{
 		id: 3,
-		name: "Suites",
-		href: "/suites",
+		name: "Hotels",
+		href: "/hotels",
 		haveChevron: true,
 	},
 	{

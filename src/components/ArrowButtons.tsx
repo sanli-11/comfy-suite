@@ -2,9 +2,13 @@ import Button from "./Button";
 import left from "../assets/svg/chevron-left.svg";
 import right from "../assets/svg/chevron-right.svg";
 
-function HeroButtons(): JSX.Element {
+type Prop = {
+  className: string,
+}
+
+function ArrowButtons(props: Prop): JSX.Element {
   return (
-    <div className="absolute bottom-6 right-4 flex items-end justify-end">
+    <div className={`flex items-end justify-end ${props.className}`}>
       <Button className="border px-2">
         <img src={left} alt="Previous" width="20" height="20" />
       </Button>
@@ -15,4 +19,4 @@ function HeroButtons(): JSX.Element {
   );
 }
 
-export default HeroButtons;
+export default ArrowButtons;

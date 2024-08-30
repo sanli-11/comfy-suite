@@ -2,7 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        lessblack: "rgb(var(--color-bg))",
+        overlay: "rgb(var(--color-overlay))",
+      },
+    },
   },
   plugins: [],
 };
