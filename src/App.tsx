@@ -1,6 +1,7 @@
 import FloatingActionBar from "./components/FloatingQuickAction";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import MostRatedHotels from "./components/MostRatedHotels";
 import PopularLocations from "./components/PopularLocations";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Hero />
         <FloatingActionBar />
         <PopularLocations />
+        <MostRatedHotels />
       </main>
     </div>
   )
