@@ -4,11 +4,9 @@ type locations = {
 };
 
 const hotelLocations: locations[] = [
-	{ id: 0, name: "California" },
-	{ id: 1, name: "New York" },
-	{ id: 2, name: "New Jersey" },
-	{ id: 3, name: "Texas" },
-	{ id: 4, name: "Florida" },
+	{ id: 0, name: "Miami, Florida" },
+	{ id: 1, name: "Switzerland" },
+	{ id: 2, name: "Japan" },
 ];
 
 export { hotelLocations };
