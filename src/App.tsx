@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import MostRatedHotels from "./components/MostRatedHotels";
 import PopularLocations from "./components/PopularLocations";
+import LatestBlogs from "./components/LatestBlogs";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <FloatingActionBar />
         <PopularLocations />
         <MostRatedHotels />
+        <LatestBlogs />
       </main>
     </div>
   )
