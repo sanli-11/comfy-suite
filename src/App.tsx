@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import MostRatedHotels from "./components/MostRatedHotels";
 import PopularLocations from "./components/PopularLocations";
 import LatestBlogs from "./components/LatestBlogs";
+import About from "./components/About";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <PopularLocations />
         <MostRatedHotels />
         <LatestBlogs />
+        <About />
       </main>
     </div>
   )
